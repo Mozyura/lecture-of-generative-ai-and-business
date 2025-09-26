@@ -17,6 +17,13 @@
 
 生成されたカード画像を記念品として提供するなど、新しいサービス展開の可能性がある。
 
+![サンプル1](./sample/generated_f98b4dba-bd1c-4fd4-b503-3900cb41476f2356833320426926422.jpg)
+
+#### プロンプト
+```
+A stunning and fantastical tarot card illustration, The Star, featuring a graceful glowing jellyfish as a celestial being, pouring light into the deep ocean. The background is a cosmic night sky
+```
+
 ### 3. システムアーキテクチャ
 構成図:
 
@@ -54,9 +61,9 @@ Step3: 取得した情報と占い師の印象を統合し、ファインチュ�
 
 Step4: LLMから最終的なプロンプトを受け取り、出力する。
 
-### 5. デモ
+### 5. 結果
 
-デモ: 最終的に動作したColab Notebookの実行結果。
+結果: 最終的に動作したColab Notebookの実行結果。
 
 入力: 占い師の印象: "どことなく猫っぽい雰囲気の人" + 引いたカード: "8 - 力 (Strength)"
 
